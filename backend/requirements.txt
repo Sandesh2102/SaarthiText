@@ -1,0 +1,32 @@
+# Web framework
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Settings & validation
+pydantic==2.10.4
+pydantic-settings==2.7.1
+email-validator==2.2.0
+
+# Database
+SQLAlchemy==2.0.36
+# Optional PostgreSQL driver (uncomment / install when using Postgres)
+# psycopg2-binary==2.9.10
+
+# Auth / security
+PyJWT==2.10.1
+bcrypt==4.2.1
+
+# Document processing
+PyMuPDF==1.25.1
+
+# Readability metrics
+textstat==0.7.4
+
+# LLM provider (active: Google Gemini). Others are optional.
+anthropic==0.42.0
+openai==1.59.2          # OpenAI, OpenAI-compatible, and OpenRouter providers
+google-generativeai==0.8.3  # Google Gemini (active provider)
+
+# PDF report generation
+reportlab==4.2.5
